@@ -1,0 +1,10 @@
+# git-lfs
+*.png filter=lfs diff=lfs merge=lfs -text
+*.jpg filter=lfs diff=lfs merge=lfs -text
+*.gif filter=lfs diff=lfs merge=lfs -text
+
+# Newline
+*.bat               text encoding=sjis eol=crlf
+*.sh                text eol=lf
+Pipfile             text eol=lf
+Pipfile.lock        text eol=lf

@@ -1,0 +1,7 @@
+[B|b]uild/
+[T|t]emp/
+.[T|t]emp/
+.[W|w]ork/
+*.bak
+*.tmp
+*.org

@@ -3,14 +3,15 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to KeySwitchManager's documentation!
+KeySwitchManager
 ============================================
 
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
 
-   contens/Test
+   contents/overview
+   contents/commandline/commandline
 
 
 Indices and tables

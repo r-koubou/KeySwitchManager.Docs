@@ -10,6 +10,7 @@ Welcome to KeySwitchManager's documentation!
    :maxdepth: 2
    :caption: Contents:
 
+   contens/Test
 
 
 Indices and tables

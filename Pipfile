@@ -14,10 +14,3 @@ sphinx-autobuild = "*"
 
 [requires]
 python_version = "3.9"
-
-[scripts]
-build           = "pipenv run sphinx-build -M html source build"
-
-i18n_en_build   = "pipenv run sphinx-build -M html source build -D language=en"
-i18n_en_pot     = "make gettext"
-i18n_en_po      = "sphinx-intl update -p build/gettext -l en"

@@ -1,3 +1,3 @@
 @echo off
 
-pipenv run i18n_%1_build
+pipenv run make html -e SPHINXOPTS="-D language=%1"

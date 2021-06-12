@@ -1,3 +1,3 @@
 #!/bin/bash
 
-pipenv run i18n_${1}_build
+pipenv run sphinx-build -M html source build -D language=$1

@@ -1,4 +1,12 @@
+# VSCode
+.vscode/*
+!.vscode/settings.json
+
+# Sphinx
 [B|b]uild/
+_[B|b]uild/
+
+# Me
 [T|t]emp/
 .[T|t]emp/
 .[W|w]ork/

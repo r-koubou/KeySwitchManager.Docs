@@ -7,16 +7,8 @@ KeySwitchManager
 ============================================
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+    :maxdepth: 2
+    :caption: Contents:
 
-   contents/overview
-   contents/commandline/commandline
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+    contents/overview
+    contents/commandline/commandline

@@ -1,6 +1,5 @@
 # VSCode
-.vscode/*
-!.vscode/settings.json
+.vscode/
 
 # Sphinx
 [B|b]uild/

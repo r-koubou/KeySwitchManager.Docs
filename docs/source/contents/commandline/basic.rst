@@ -4,14 +4,14 @@
 new
 --------------------------------------
 
-定義ファイル新規作成(Yaml)
+キースイッチ定義ファイル新規作成(:doc:`Yaml </contents/definition/yaml>`)
 
-::
+.. code-block:: bash
 
-    ksm new [output-path]
+    ksm new <output-path>
 
 +-------------+------------------+----------+--------------------+
-|    Option   | Description      | Required |       Default      |
+|  Parameter  | Description      | Required |       Default      |
 +-------------+------------------+----------+--------------------+
 | output-path | 出力ファイルパス |    no    | (ProductName).yaml |
 +-------------+------------------+----------+--------------------+
@@ -21,14 +21,14 @@ new-xlsx
 --------------------------------------
 
 
-定義ファイル新規作成(Spreadsheet)
+キースイッチ定義ファイル新規作成(Spreadsheet)
 
-::
+.. code-block:: bash
 
-    ksm new-xlsx [output-path]
+    ksm new-xlsx <output-path>
 
 +-------------+------------------+----------+--------------------+
-|    Option   | Description      | Required |       Default      |
+|  Parameter  | Description      | Required |       Default      |
 +-------------+------------------+----------+--------------------+
 | output-path | 出力ファイルパス |    no    | (ProductName).xlsx |
 +-------------+------------------+----------+--------------------+
@@ -39,7 +39,7 @@ search
 
 
 指定されたパラメータからデータベース内のキースイッチ情報データを検索する（部分一致）
-検索結果の出力フォーマットはYaml
+検索結果の出力フォーマットは :doc:`Yaml </contents/definition/yaml>`
 
 .. code-block:: bash
 

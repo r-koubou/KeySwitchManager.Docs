@@ -48,6 +48,22 @@ KeySwitches
 :Type: ``list``
 :Required: ``yes``
 
+Id
+---------------------------------------
+
+データベースがキースイッチを識別する一意のID。
+
+:Type: ``GUID``
+:Required: ``no``
+
+:doc:`new </contents/commandline/basic>`, :doc:`export </contents/commandline/export>`, :doc:`search </contents/commandline/basic>` などプログラムが出力するので通常は編集しない
+
+例:
+
+    .. code-block:: yaml
+
+        Id: d1efb793-600d-4f40-85dc-2253e1b05aa6
+
 
 Author
 ---------------------------------------
@@ -186,33 +202,50 @@ Name
 
 例:
 
-    .. code-block:: yaml
+.. code-block:: yaml
 
-        Name: PowerChord
+    Articulations:
+    - Name: PowerChord
 
 MidiMessage
 ~~~~~~~~~~~~~~~~
 
 MIDIメッセージの指定
 
-.. code-block:: yaml
-
-    NoteOn:
-      - Channel: 0
-        Note: C-2
-        Velocity: 100
-    ControlChange:
-      - Channel: 0
-        ControlNumber: 1
-        Data: 10
-    ProgramChange:
-      - Channel: 0
-        ProgramNumber: 1
 
 NoteOn
 ^^^^^^^^^^^^^^^^
 
 MIDIノートオンイベント
+
+:Type: ``list``
+:Required: ``no``
+
+例:
+
+.. code-block:: yaml
+
+    Articulations:
+    - Name: PowerChord
+      MidiMessage:
+        NoteOn:
+          - Channel: 0
+            Note: C-2
+            Velocity: 100
+
+.. code-block:: yaml
+
+    # Multiple notes supported
+    Articulations:
+    - Name: PowerChord
+      MidiMessage:
+        NoteOn:
+          - Channel: 0
+            Note: C-2
+            Velocity: 100
+          - Channel: 0
+            Note: E-2
+            Velocity: 100
 
 Channel
 ################
@@ -221,7 +254,7 @@ MIDIチャンネル
 
 .. note::
 
-    0-15が使用可能
+    0〜15が使用可能
 
 
 :Type: ``int``
@@ -248,10 +281,7 @@ Note
 
 .. code-block:: yaml
 
-    NoteOn:
-      - Channel: 0
-        Note: C-2
-        Velocity: 100
+    Note: C-2
 
 
 Velocity

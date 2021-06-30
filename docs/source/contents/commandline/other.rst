@@ -50,8 +50,7 @@ batch
 +----------------+---------------+--------------------------------+
 
 
-guid 例
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+**例**
 
 コマンドを記述したバッチ記述例
 
@@ -59,9 +58,3 @@ guid 例
 
     export-xlsx -d "8DIO" -f KeySwitches.db -o output
     export-xlsx -d "Fujiya Instruments" -f KeySwitches.db -o output
-
-コマンド例
-
-.. code-block:: bash
-
-    ksm batch -f batch.txt

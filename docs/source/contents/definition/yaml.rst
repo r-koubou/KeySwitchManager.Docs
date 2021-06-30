@@ -1,11 +1,12 @@
 Yaml
 =======================================
 
+**フォーマット**
 
 .. code-block:: yaml
 
   KeySwitches:
-  - Id: d1efb793-600d-4f40-85dc-2253e1b05aa6
+  - Id: xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
     Author: Author
     Description: Description
     Created: 2021-06-22T15:55:59.8150000Z
@@ -58,7 +59,7 @@ Id
 
 :doc:`new </contents/commandline/basic>`, :doc:`export </contents/commandline/export>`, :doc:`search </contents/commandline/basic>` などプログラムが出力するので通常は編集しない
 
-例:
+**例**
 
     .. code-block:: yaml
 
@@ -73,7 +74,7 @@ Author
 :Type: ``string``
 :Required: ``no``
 
-例:
+**例**
 
     .. code-block:: yaml
 
@@ -88,7 +89,7 @@ Description
 :Type: ``string``
 :Required: ``no``
 
-例:
+**例**
 
     .. code-block:: yaml
 
@@ -105,7 +106,7 @@ Created
 :Type: ``DateTime``
 :Required: ``yes``
 
-例:
+**例**
 
     .. code-block:: yaml
 
@@ -127,7 +128,7 @@ LastUpdated
 :Type: ``DateTime``
 :Required: ``no``
 
-例:
+**例**
 
     .. code-block:: yaml
 
@@ -147,7 +148,7 @@ DeveloperName
 :Type: ``string``
 :Required: yes
 
-例:
+**例**
 
     .. code-block:: yaml
 
@@ -161,7 +162,7 @@ ProductName
 :Type: ``string``
 :Required: yes
 
-例:
+**例**
 
     .. code-block:: yaml
 
@@ -176,12 +177,13 @@ InstrumentName
 :Type: ``string``
 :Required: yes
 
-例:
+**例**
 
     .. code-block:: yaml
 
         InstrumentName: VHG Mono
 
+----
 
 Articulations
 ---------------------------------------
@@ -192,6 +194,8 @@ Articulations
 :Required: yes
 :Allow Empty: yes
 
+----
+
 Name
 ~~~~~~~~~~~~~~~~~~~
 
@@ -200,12 +204,14 @@ Name
 :Type: ``string``
 :Required: yes
 
-例:
+**例**
 
 .. code-block:: yaml
 
     Articulations:
     - Name: PowerChord
+
+----
 
 MidiMessage
 ~~~~~~~~~~~~~~~~
@@ -216,12 +222,12 @@ MIDIメッセージの指定
 NoteOn
 ^^^^^^^^^^^^^^^^
 
-MIDIノートオンイベント
+MIDIノートオン
 
 :Type: ``list``
 :Required: ``no``
 
-例:
+**例**
 
 .. code-block:: yaml
 
@@ -260,7 +266,7 @@ MIDIチャンネル
 :Type: ``int``
 :Required: yes
 
-例:
+**例**
 
 .. code-block:: yaml
 
@@ -297,32 +303,232 @@ Velocity
 :Type: ``int``
 :Required: yes
 
-例:
+**例**
 
 .. code-block:: yaml
 
     Velocity: 100
 
+----
+
+ControlChange
+^^^^^^^^^^^^^^^^
+
+MIDIコントールチェンジ
+
+:Type: ``list``
+:Required: ``no``
+
+**例**
+
+.. code-block:: yaml
+
+    Articulations:
+    - Name: PowerChord
+      MidiMessage:
+        ControlChange:
+          - Channel: 0
+            ControlNumber: 0
+            Data: 100
+
+.. code-block:: yaml
+
+    # Multiple CC supported
+    Articulations:
+    - Name: PowerChord
+      MidiMessage:
+        ControlChange:
+          - Channel: 0
+            ControlNumber: 0
+            Data: 100
+          - Channel: 0
+            ControlNumber: 1
+            Data: 110
+
+Channel
+################
+
+MIDIチャンネル
+
+.. note::
+
+    0〜15
+
+
+:Type: ``int``
+:Required: yes
+
+**例**
+
+.. code-block:: yaml
+
+    Channel: 0
+
+ControlNumber
+################
+
+コントールチェンジナンバー
+
+:Type: ``int``
+:Required: yes
+
+.. note::
+
+    0〜127
+
+.. code-block:: yaml
+
+    ControlNumber: 0
+
+
+Data
+################
+
+コントールチェンジデータ値
+
+:Type: ``int``
+:Required: yes
+
+.. note::
+
+    0〜127
+
+.. code-block:: yaml
+
+    Data: 0
+
+----
+
+ProgramChange
+^^^^^^^^^^^^^^^^
+
+プログラムチェンジ
+
+:Type: ``list``
+:Required: ``no``
+
+**例**
+
+.. code-block:: yaml
+
+    Articulations:
+    - Name: PowerChord
+      MidiMessage:
+        ProgramChange:
+          - Channel: 0
+            ProgramNumber: 0
+
+.. code-block:: yaml
+
+    # Multiple PC supported
+    Articulations:
+    - Name: PowerChord
+      MidiMessage:
+        ProgramChange:
+          - Channel: 0
+            ProgramNumber: 0
+          - Channel: 1
+            ProgramNumber: 1
+
+Channel
+################
+
+MIDIチャンネル
+
+.. note::
+
+    0〜15
+
+
+:Type: ``int``
+:Required: yes
+
+**例**
+
+.. code-block:: yaml
+
+    Channel: 0
+
+ProgramNumber
+################
+
+プログラムナンバー
+
+:Type: ``int``
+:Required: yes
+
+.. note::
+
+    0〜127
+
+**例**
+
+.. code-block:: yaml
+
+    ProgramNumber: 0
+
+----
+
+.. ExtraData@Articulation
+
+ExtraData
+~~~~~~~~~~~~~~~~~~~
+
+予約。将来の拡張用。
+
+:Required: no
+
+see: :ref:`ref_ext_format`
+
+**例**
+
+.. code-block:: yaml
+
+    Articulations:
+    - Name: PowerChord
+      ExtraData:
+        Key: Value
+
+.. ExtraData@KeySwitch
+
+----
 
 ExtraData
 ---------------------------------------
 
-予約。DAW固有の情報など将来の拡張用。
+予約。将来の拡張用。
+
+:Required: no
+
+see: :ref:`ref_ext_format`
+
+**例**
+
+.. code-block:: yaml
+
+  KeySwitches:
+  - Id: xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
+    :
+    :
+    ExtraData:
+      Key: Value
+
+----
+
+.. _ref_ext_format:
+
+ExtraDataフォーマット
+---------------------------------------
 
 :Type: ``dictionary<string, string>``
-:Required: no
 :Allow Empty: yes
 
-例:
+.. code-block:: yaml
 
-    .. code-block:: yaml
+    ExtraData:
+        key: value
 
-        ExtraData:
-            key: value
+.. code-block:: yaml
 
-    .. code-block:: yaml
-
-        # Empty
-        ExtraData:[]
-
-:doc:`New </contents/commandline/basic>`
+    # Empty
+    ExtraData:[]

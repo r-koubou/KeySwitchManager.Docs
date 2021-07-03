@@ -1,12 +1,5 @@
-コマンドライン操作
+コマンドライン (CLI)
 ============================================
-
-**共通**
-
-.. code-block:: bash
-
-    ksm <command> [<options>|--help]
-
 
 .. toctree::
     :maxdepth: 2

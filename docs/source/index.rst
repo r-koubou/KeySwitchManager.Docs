@@ -6,6 +6,11 @@
 KeySwitchManager
 ============================================
 
+GitHub
+--------------------------------
+
+https://github.com/r-koubou/KeySwitchManager
+
 .. toctree::
     :caption: Contents:
     :maxdepth: 3

@@ -7,7 +7,7 @@
 - [Japanese](https://ja-keyswitchmanager.rtfd.io/)
 - [English](https://keyswitchmanager.rtfd.io/)
 
-## Read thr Docs Project site
+## Read the Docs Project site
 
 - [Japanese](https://readthedocs.org/projects/ja-keyswitchmanager/)
 - [English](https://readthedocs.org/projects/keyswitchmanager/)

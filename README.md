@@ -2,17 +2,17 @@
 
 [KeySwitchManager's](https://github.com/r-koubou/KeySwitchManager) document codes which powered by Sphinx.
 
-<!-- TOC -->
+## Deployment
 
-- [KeySwitchManager.Docs](#keyswitchmanagerdocs)
-  - [Requirements](#requirements)
-  - [Rebuild the environment](#rebuild-the-environment)
-  - [Update i18n files](#update-i18n-files)
-    - [English](#english)
-  - [Build (En)](#build-en)
-  - [Build (Ja)](#build-ja)
+- [Japanese](https://ja-keyswitchmanager.rtfd.io/)
+- [English](https://keyswitchmanager.rtfd.io/)
 
-<!-- /TOC -->
+## Read thr Docs Project site
+
+- [Japanese](https://readthedocs.org/projects/ja-keyswitchmanager/)
+- [English](https://readthedocs.org/projects/keyswitchmanager/)
+
+----
 
 ## Requirements
 

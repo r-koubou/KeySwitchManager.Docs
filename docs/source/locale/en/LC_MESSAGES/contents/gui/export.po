@@ -1,0 +1,114 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, R-Koubou
+# This file is distributed under the same license as the KeySwitchManager
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: KeySwitchManager 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-13 23:47+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/contents/gui/export.rst:2
+msgid "検索/エクスポート"
+msgstr "Find/Export."
+
+#: ../../source/contents/gui/export.rst:4
+msgid "DB内からキースイッチ定義の検索、指定DAWのフォーマットで出力する"
+msgstr "Search for keyswitch definitions in the database and output in the specified DAW format."
+
+#: ../../source/contents/gui/export.rst:10
+msgid "検索"
+msgstr "Find"
+
+#: ../../source/contents/gui/export.rst:13
+#: ../../source/contents/gui/export.rst:29
+msgid "項目"
+msgstr "Item"
+
+#: ../../source/contents/gui/export.rst:13
+#: ../../source/contents/gui/export.rst:29
+msgid "説明"
+msgstr "Description"
+
+#: ../../source/contents/gui/export.rst:15
+msgid "Database File"
+msgstr ""
+
+#: ../../source/contents/gui/export.rst:15
+msgid "検索元DBファイルパス"
+msgstr "Search source database file path"
+
+#: ../../source/contents/gui/export.rst:16
+msgid "Developer"
+msgstr ""
+
+#: ../../source/contents/gui/export.rst:16
+msgid "検索条件：開発者名"
+msgstr "Conditions: Developer name"
+
+#: ../../source/contents/gui/export.rst:17
+msgid "Product"
+msgstr ""
+
+#: ../../source/contents/gui/export.rst:17
+msgid "検索条件：製品名"
+msgstr "Condition: Product name"
+
+#: ../../source/contents/gui/export.rst:18
+msgid "Instrument"
+msgstr ""
+
+#: ../../source/contents/gui/export.rst:18
+msgid "検索条件：インストゥルメント名"
+msgstr "Condition: Instrument name"
+
+#: ../../source/contents/gui/export.rst:19
+msgid "Find"
+msgstr ""
+
+#: ../../source/contents/gui/export.rst:19
+msgid "検索開始"
+msgstr "Start searching"
+
+#: ../../source/contents/gui/export.rst:24
+msgid "エクスポート"
+msgstr "Export"
+
+#: ../../source/contents/gui/export.rst:26
+msgid "検索条件に合致するデータを出力する"
+msgstr "Output data that matches the conditions."
+
+#: ../../source/contents/gui/export.rst:31
+msgid "Output Directory"
+msgstr ""
+
+#: ../../source/contents/gui/export.rst:31
+msgid "出力先ディレクトリ"
+msgstr "Output destination directory"
+
+#: ../../source/contents/gui/export.rst:32
+msgid "Format"
+msgstr ""
+
+#: ../../source/contents/gui/export.rst:32
+msgid "出力データフォーマット"
+msgstr "Output data formats"
+
+#: ../../source/contents/gui/export.rst:33
+msgid "Export"
+msgstr ""
+
+#: ../../source/contents/gui/export.rst:33
+msgid "エクスポート開始"
+msgstr "Start exporting"
+

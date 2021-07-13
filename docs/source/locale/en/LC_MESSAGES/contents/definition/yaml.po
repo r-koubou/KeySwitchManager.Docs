@@ -1,0 +1,391 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, R-Koubou
+# This file is distributed under the same license as the KeySwitchManager
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: KeySwitchManager 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-14 00:35+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/contents/definition/yaml.rst:2
+msgid "Yaml"
+msgstr ""
+
+#: ../../source/contents/definition/yaml.rst:4
+msgid "**フォーマット**"
+msgstr "**Format**"
+
+#: ../../source/contents/definition/yaml.rst:42
+msgid "Contents"
+msgstr ""
+
+#: ../../source/contents/definition/yaml.rst:45
+msgid "KeySwitches"
+msgstr ""
+
+#: ../../source/contents/definition/yaml.rst:47
+msgid "キースイッチ定義リスト"
+msgstr "Keyswitch Definition List"
+
+#: ../../source/contents/definition/yaml.rst
+msgid "Type"
+msgstr ""
+
+#: ../../source/contents/definition/yaml.rst:49
+#: ../../source/contents/definition/yaml.rst:194
+#: ../../source/contents/definition/yaml.rst:228
+#: ../../source/contents/definition/yaml.rst:320
+#: ../../source/contents/definition/yaml.rst:408
+msgid "``list``"
+msgstr ""
+
+#: ../../source/contents/definition/yaml.rst
+msgid "Required"
+msgstr ""
+
+#: ../../source/contents/definition/yaml.rst:50
+#: ../../source/contents/definition/yaml.rst:107
+msgid "``yes``"
+msgstr ""
+
+#: ../../source/contents/definition/yaml.rst:53
+msgid "Id"
+msgstr ""
+
+#: ../../source/contents/definition/yaml.rst:55
+msgid "データベースがキースイッチを識別する一意のID。"
+msgstr "A unique ID by which the database identifies the keyswitch."
+
+#: ../../source/contents/definition/yaml.rst:57
+msgid "``GUID``"
+msgstr ""
+
+#: ../../source/contents/definition/yaml.rst:58
+#: ../../source/contents/definition/yaml.rst:75
+#: ../../source/contents/definition/yaml.rst:90
+#: ../../source/contents/definition/yaml.rst:130
+#: ../../source/contents/definition/yaml.rst:229
+#: ../../source/contents/definition/yaml.rst:321
+#: ../../source/contents/definition/yaml.rst:409
+msgid "``no``"
+msgstr ""
+
+#: ../../source/contents/definition/yaml.rst:60
+msgid ""
+":doc:`new </contents/commandline/basic>`, :doc:`export "
+"</contents/commandline/export>`, :doc:`search "
+"</contents/commandline/basic>` などプログラムが出力するので通常は編集しない"
+msgstr ""
+"Usually not edited because the program outputs it. (:doc:`new "
+"</contents/commandline/basic>`, :doc:`export "
+"</contents/commandline/export>`, :doc:`search "
+"</contents/commandline/basic>`)"
+
+#: ../../source/contents/definition/yaml.rst:62
+#: ../../source/contents/definition/yaml.rst:77
+#: ../../source/contents/definition/yaml.rst:92
+#: ../../source/contents/definition/yaml.rst:109
+#: ../../source/contents/definition/yaml.rst:132
+#: ../../source/contents/definition/yaml.rst:152
+#: ../../source/contents/definition/yaml.rst:166
+#: ../../source/contents/definition/yaml.rst:181
+#: ../../source/contents/definition/yaml.rst:208
+#: ../../source/contents/definition/yaml.rst:231
+#: ../../source/contents/definition/yaml.rst:270
+#: ../../source/contents/definition/yaml.rst:307
+#: ../../source/contents/definition/yaml.rst:323
+#: ../../source/contents/definition/yaml.rst:362
+#: ../../source/contents/definition/yaml.rst:411
+#: ../../source/contents/definition/yaml.rst:447
+#: ../../source/contents/definition/yaml.rst:465
+#: ../../source/contents/definition/yaml.rst:484
+#: ../../source/contents/definition/yaml.rst:506
+msgid "**例**"
+msgstr "**Example**"
+
+#: ../../source/contents/definition/yaml.rst:70
+msgid "Author"
+msgstr ""
+
+#: ../../source/contents/definition/yaml.rst:72
+msgid "キースイッチ作成者情報"
+msgstr "Keyswitch author information"
+
+#: ../../source/contents/definition/yaml.rst:74
+#: ../../source/contents/definition/yaml.rst:89
+#: ../../source/contents/definition/yaml.rst:149
+#: ../../source/contents/definition/yaml.rst:163
+#: ../../source/contents/definition/yaml.rst:178
+#: ../../source/contents/definition/yaml.rst:205
+msgid "``string``"
+msgstr ""
+
+#: ../../source/contents/definition/yaml.rst:85
+msgid "Description"
+msgstr ""
+
+#: ../../source/contents/definition/yaml.rst:87
+msgid "キースイッチ説明"
+msgstr "Keyswitch Description"
+
+#: ../../source/contents/definition/yaml.rst:100
+msgid "Created"
+msgstr ""
+
+#: ../../source/contents/definition/yaml.rst:102
+msgid "作成日(UTC)"
+msgstr "Creation date (UTC)"
+
+#: ../../source/contents/definition/yaml.rst:104
+#: ../../source/contents/definition/yaml.rst:126
+msgid ""
+":doc:`export </contents/commandline/export>`, :doc:`search "
+"</contents/commandline/basic>` などプログラムが出力するので通常は編集しない"
+msgstr ""
+"Usually not edited because the program outputs it. (:doc:`export "
+"</contents/commandline/export>`, :doc:`search "
+"</contents/commandline/basic>`)"
+
+#: ../../source/contents/definition/yaml.rst:106
+#: ../../source/contents/definition/yaml.rst:129
+msgid "``DateTime``"
+msgstr ""
+
+#: ../../source/contents/definition/yaml.rst:122
+msgid "LastUpdated"
+msgstr ""
+
+#: ../../source/contents/definition/yaml.rst:124
+msgid "更新日(UTC)"
+msgstr "Update date (UTC)"
+
+#: ../../source/contents/definition/yaml.rst:145
+msgid "DeveloperName"
+msgstr ""
+
+#: ../../source/contents/definition/yaml.rst:147
+msgid "音源開発者情報"
+msgstr "Developer's Information"
+
+#: ../../source/contents/definition/yaml.rst:150
+#: ../../source/contents/definition/yaml.rst:164
+#: ../../source/contents/definition/yaml.rst:179
+#: ../../source/contents/definition/yaml.rst:195
+#: ../../source/contents/definition/yaml.rst:196
+#: ../../source/contents/definition/yaml.rst:206
+#: ../../source/contents/definition/yaml.rst:268
+#: ../../source/contents/definition/yaml.rst:280
+#: ../../source/contents/definition/yaml.rst:305
+#: ../../source/contents/definition/yaml.rst:360
+#: ../../source/contents/definition/yaml.rst:374
+#: ../../source/contents/definition/yaml.rst:391
+#: ../../source/contents/definition/yaml.rst:445
+#: ../../source/contents/definition/yaml.rst:459
+#: ../../source/contents/definition/yaml.rst:525
+msgid "yes"
+msgstr ""
+
+#: ../../source/contents/definition/yaml.rst:159
+msgid "ProductName"
+msgstr ""
+
+#: ../../source/contents/definition/yaml.rst:161
+msgid "製品名情報"
+msgstr "Product Name Information"
+
+#: ../../source/contents/definition/yaml.rst:174
+msgid "InstrumentName"
+msgstr ""
+
+#: ../../source/contents/definition/yaml.rst:176
+msgid "音色名情報"
+msgstr "Instrument name information"
+
+#: ../../source/contents/definition/yaml.rst:190
+msgid "Articulations"
+msgstr ""
+
+#: ../../source/contents/definition/yaml.rst:192
+msgid "アーティキュレーション定義"
+msgstr "Definition of articulation"
+
+#: ../../source/contents/definition/yaml.rst
+msgid "Allow Empty"
+msgstr ""
+
+#: ../../source/contents/definition/yaml.rst:201
+msgid "Name"
+msgstr ""
+
+#: ../../source/contents/definition/yaml.rst:203
+msgid "アーティキュレーション名"
+msgstr "articulation name"
+
+#: ../../source/contents/definition/yaml.rst:218
+msgid "MidiMessage"
+msgstr ""
+
+#: ../../source/contents/definition/yaml.rst:220
+msgid "MIDIメッセージの指定"
+msgstr "Specifying a MIDI message"
+
+#: ../../source/contents/definition/yaml.rst:224
+msgid "NoteOn"
+msgstr ""
+
+#: ../../source/contents/definition/yaml.rst:226
+msgid "MIDIノートオン"
+msgstr "MIDI Note On"
+
+#: ../../source/contents/definition/yaml.rst:258
+#: ../../source/contents/definition/yaml.rst:350
+#: ../../source/contents/definition/yaml.rst:435
+msgid "Channel"
+msgstr ""
+
+#: ../../source/contents/definition/yaml.rst:260
+#: ../../source/contents/definition/yaml.rst:352
+#: ../../source/contents/definition/yaml.rst:437
+msgid "MIDIチャンネル"
+msgstr "MIDI Channel"
+
+#: ../../source/contents/definition/yaml.rst:264
+msgid "0〜15が使用可能"
+msgstr "0 to 15"
+
+#: ../../source/contents/definition/yaml.rst:267
+#: ../../source/contents/definition/yaml.rst:304
+#: ../../source/contents/definition/yaml.rst:359
+#: ../../source/contents/definition/yaml.rst:373
+#: ../../source/contents/definition/yaml.rst:390
+#: ../../source/contents/definition/yaml.rst:444
+#: ../../source/contents/definition/yaml.rst:458
+msgid "``int``"
+msgstr ""
+
+#: ../../source/contents/definition/yaml.rst:277
+msgid "Note"
+msgstr ""
+
+#: ../../source/contents/definition/yaml.rst:279
+msgid "``int`` or ``string``"
+msgstr ""
+
+#: ../../source/contents/definition/yaml.rst:284
+msgid "MIDIノートナンバー、または音階名が使用可能"
+msgstr "MIDI note numbers or scale names can be used."
+
+#: ../../source/contents/definition/yaml.rst
+msgid "Number"
+msgstr ""
+
+#: ../../source/contents/definition/yaml.rst:286
+#: ../../source/contents/definition/yaml.rst:378
+#: ../../source/contents/definition/yaml.rst:395
+#: ../../source/contents/definition/yaml.rst:463
+msgid "0〜127"
+msgstr "0 to 127"
+
+#: ../../source/contents/definition/yaml.rst
+msgid "Note name"
+msgstr ""
+
+#: ../../source/contents/definition/yaml.rst:287
+msgid "C-2〜G8 (Yamaha form)"
+msgstr ""
+
+#: ../../source/contents/definition/yaml.rst:295
+msgid "Velocity"
+msgstr ""
+
+#: ../../source/contents/definition/yaml.rst:297
+msgid "ベロシティ"
+msgstr "velocity"
+
+#: ../../source/contents/definition/yaml.rst:301
+msgid "0〜127が使用可能"
+msgstr "0 to 127"
+
+#: ../../source/contents/definition/yaml.rst:316
+msgid "ControlChange"
+msgstr ""
+
+#: ../../source/contents/definition/yaml.rst:318
+msgid "MIDIコントールチェンジ"
+msgstr "MIDI Control change"
+
+#: ../../source/contents/definition/yaml.rst:356
+#: ../../source/contents/definition/yaml.rst:441
+msgid "0〜15"
+msgstr "0 to 15"
+
+#: ../../source/contents/definition/yaml.rst:369
+msgid "ControlNumber"
+msgstr ""
+
+#: ../../source/contents/definition/yaml.rst:371
+msgid "コントールチェンジナンバー"
+msgstr "MIDI Control change number"
+
+#: ../../source/contents/definition/yaml.rst:386
+msgid "Data"
+msgstr ""
+
+#: ../../source/contents/definition/yaml.rst:388
+msgid "コントールチェンジデータ値"
+msgstr "MIDI Control change data value"
+
+#: ../../source/contents/definition/yaml.rst:404
+msgid "ProgramChange"
+msgstr ""
+
+#: ../../source/contents/definition/yaml.rst:406
+msgid "プログラムチェンジ"
+msgstr "MIDI program change"
+
+#: ../../source/contents/definition/yaml.rst:454
+msgid "ProgramNumber"
+msgstr ""
+
+#: ../../source/contents/definition/yaml.rst:456
+msgid "プログラムナンバー"
+msgstr "MIDI Program Number"
+
+#: ../../source/contents/definition/yaml.rst:476
+#: ../../source/contents/definition/yaml.rst:498
+msgid "ExtraData"
+msgstr ""
+
+#: ../../source/contents/definition/yaml.rst:478
+#: ../../source/contents/definition/yaml.rst:500
+msgid "予約。将来の拡張用。"
+msgstr "Reserved"
+
+#: ../../source/contents/definition/yaml.rst:480
+#: ../../source/contents/definition/yaml.rst:502
+msgid "no"
+msgstr ""
+
+#: ../../source/contents/definition/yaml.rst:482
+#: ../../source/contents/definition/yaml.rst:504
+msgid "see: :ref:`ref_ext_format`"
+msgstr ""
+
+#: ../../source/contents/definition/yaml.rst:522
+msgid "ExtraDataフォーマット"
+msgstr "ExtraData format"
+
+#: ../../source/contents/definition/yaml.rst:524
+msgid "``dictionary<string, string>``"
+msgstr ""

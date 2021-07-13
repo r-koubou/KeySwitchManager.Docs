@@ -1,0 +1,127 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, R-Koubou
+# This file is distributed under the same license as the KeySwitchManager
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: KeySwitchManager 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-14 00:24+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/contents/commandline/other.rst:2
+msgid "その他"
+msgstr "Others"
+
+#: ../../source/contents/commandline/other.rst:5
+msgid "guid コマンド"
+msgstr "guid"
+
+#: ../../source/contents/commandline/other.rst:7
+msgid "GUIDを作成する"
+msgstr "Create a GUID"
+
+#: ../../source/contents/commandline/other.rst:15
+#: ../../source/contents/commandline/other.rst:54
+msgid "Option (short)"
+msgstr ""
+
+#: ../../source/contents/commandline/other.rst:15
+#: ../../source/contents/commandline/other.rst:54
+msgid "Option (long)"
+msgstr ""
+
+#: ../../source/contents/commandline/other.rst:15
+#: ../../source/contents/commandline/other.rst:54
+msgid "Description"
+msgstr ""
+
+#: ../../source/contents/commandline/other.rst:15
+msgid "Default"
+msgstr ""
+
+#: ../../source/contents/commandline/other.rst:17
+msgid "-o"
+msgstr ""
+
+#: ../../source/contents/commandline/other.rst:17
+msgid "--output"
+msgstr ""
+
+#: ../../source/contents/commandline/other.rst:17
+msgid "出力ファイルパス"
+msgstr "Output file path"
+
+#: ../../source/contents/commandline/other.rst:17
+msgid "標準出力"
+msgstr "stdout"
+
+#: ../../source/contents/commandline/other.rst:19
+msgid "n"
+msgstr ""
+
+#: ../../source/contents/commandline/other.rst:19
+msgid "N/A"
+msgstr ""
+
+#: ../../source/contents/commandline/other.rst:19
+msgid "生成する数"
+msgstr "Number to be generated"
+
+#: ../../source/contents/commandline/other.rst:19
+msgid "1"
+msgstr ""
+
+#: ../../source/contents/commandline/other.rst:23
+msgid "guid 例"
+msgstr "Examples of guid"
+
+#: ../../source/contents/commandline/other.rst:25
+msgid "**GUIDを1つ生成する**"
+msgstr "**Generate one GUID**"
+
+#: ../../source/contents/commandline/other.rst:31
+msgid "**GUIDを10個生成する**"
+msgstr "**Generate 10 GUIDs**"
+
+#: ../../source/contents/commandline/other.rst:37
+msgid "**GUIDを10個生成し hoge.txt に保存する**"
+msgstr "**Generate 10 GUIDs and save them in hoge.txt**"
+
+#: ../../source/contents/commandline/other.rst:45
+msgid "batch コマンド"
+msgstr "batch"
+
+#: ../../source/contents/commandline/other.rst:47
+msgid "テキストファイルに記述した複数のコマンドを一括実行する"
+msgstr "Batch execution of multiple commands written in a text file."
+
+#: ../../source/contents/commandline/other.rst:56
+msgid "-f"
+msgstr ""
+
+#: ../../source/contents/commandline/other.rst:56
+msgid "--file"
+msgstr ""
+
+#: ../../source/contents/commandline/other.rst:56
+msgid "コマンドを記述したファイルパス"
+msgstr "File path where the command is written"
+
+#: ../../source/contents/commandline/other.rst:60
+msgid "**例**"
+msgstr "**Example**"
+
+#: ../../source/contents/commandline/other.rst:62
+msgid "コマンドを記述したバッチ記述例"
+msgstr "Example of a batch description with commands"
+

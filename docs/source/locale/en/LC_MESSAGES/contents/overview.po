@@ -1,0 +1,88 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, R-Koubou
+# This file is distributed under the same license as the KeySwitchManager
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: KeySwitchManager 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-13 23:47+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/contents/overview.rst:2
+msgid "概要"
+msgstr "Overview"
+
+#: ../../source/contents/overview.rst:4
+msgid "キースイッチ情報をデータベースで管理し、対応したDAWのキースイッチ定義ファイルに相互変換可能なツール。"
+msgstr "A tool that manages keyswitch information in a database and allows mutual conversion to keyswitch definition files for supported DAWs."
+
+#: ../../source/contents/overview.rst:7
+msgid "動作環境"
+msgstr "Requirements"
+
+#: ../../source/contents/overview.rst:10
+msgid "GUI"
+msgstr ""
+
+#: ../../source/contents/overview.rst
+msgid "OS"
+msgstr ""
+
+#: ../../source/contents/overview.rst:12
+msgid "Windows 10"
+msgstr ""
+
+#: ../../source/contents/overview.rst
+msgid "ソフトウェア"
+msgstr "Software"
+
+#: ../../source/contents/overview.rst:13 ../../source/contents/overview.rst:19
+msgid "`.net5 ランタイム <https://dotnet.microsoft.com/download>`_"
+msgstr "`.net5 Runtime <https://dotnet.microsoft.com/download>`_"
+
+#: ../../source/contents/overview.rst:16
+msgid "コマンドライン"
+msgstr "Commandline"
+
+#: ../../source/contents/overview.rst:18
+msgid "Windows, macOS, Linux"
+msgstr ""
+
+#: ../../source/contents/overview.rst:24
+msgid "対応DAW"
+msgstr "Supported DAWs"
+
+#: ../../source/contents/overview.rst:26
+msgid "Cubase (Pro), Nuendo"
+msgstr ""
+
+#: ../../source/contents/overview.rst:27
+msgid "Studio One 5.2 以降"
+msgstr "Studio One 5.2 or later"
+
+#: ../../source/contents/overview.rst:28
+msgid "Cakewalk"
+msgstr ""
+
+#: ../../source/contents/overview.rst:33
+msgid "Cubase & Nuendo are trademark of Steinberg Media Technologies GmbH"
+msgstr ""
+
+#: ../../source/contents/overview.rst:34
+msgid "Studio One is a trademark of PreSonus Audio Electronics, Inc."
+msgstr ""
+
+#: ../../source/contents/overview.rst:35
+msgid "Cakewalk is a trademark of BandLab Technologies"
+msgstr ""
+

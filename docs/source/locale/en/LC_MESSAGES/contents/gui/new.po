@@ -1,0 +1,56 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, R-Koubou
+# This file is distributed under the same license as the KeySwitchManager
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: KeySwitchManager 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-13 23:47+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/contents/gui/new.rst:2
+msgid "定義ファイル新規作成"
+msgstr "Create a new definition file"
+
+#: ../../source/contents/gui/new.rst:4
+msgid "キースイッチ定義ファイルを新規作成する"
+msgstr "Create a new keyswitch definition file."
+
+#: ../../source/contents/gui/new.rst:6
+msgid ":doc:`/contents/definition/index`"
+msgstr ""
+
+#: ../../source/contents/gui/new.rst:12
+msgid "項目"
+msgstr "Item"
+
+#: ../../source/contents/gui/new.rst:12
+msgid "説明"
+msgstr "Description"
+
+#: ../../source/contents/gui/new.rst:14
+msgid "SaveTo"
+msgstr ""
+
+#: ../../source/contents/gui/new.rst:14
+msgid "定義ファイル作成パス"
+msgstr "Definition file creation path"
+
+#: ../../source/contents/gui/new.rst:15
+msgid "Create"
+msgstr ""
+
+#: ../../source/contents/gui/new.rst:15
+msgid "定義ファイルを作成する"
+msgstr "Create a definition file"
+

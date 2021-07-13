@@ -1,0 +1,97 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, R-Koubou
+# This file is distributed under the same license as the KeySwitchManager
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: KeySwitchManager 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-13 23:47+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/contents/commandline/import.rst:2
+msgid "インポート"
+msgstr "Import"
+
+#: ../../source/contents/commandline/import.rst:4
+msgid ""
+"キースイッチ定義ファイルからデータベースに情報を格納する。 "
+"データベースはローカルファイルで構築され、コマンド実行時にファイルが存在しない場合は新規作成される。"
+msgstr ""
+"Store information from the keyswitch definition file into the database."
+"The database is built in a local file, and if the file does not exist when the command is executed, a new one is created."
+
+#: ../../source/contents/commandline/import.rst:9
+msgid "import コマンド"
+msgstr "import"
+
+#: ../../source/contents/commandline/import.rst:12
+msgid "キースイッチ定義ファイル(yaml, xlsx)からデータベースにキースイッチ情報を格納する"
+msgstr "Store keyswitch information from the keyswitch definition file (yaml, xlsx) in the database."
+
+#: ../../source/contents/commandline/import.rst:19
+msgid "Option (short)"
+msgstr ""
+
+#: ../../source/contents/commandline/import.rst:19
+msgid "Option (long)"
+msgstr ""
+
+#: ../../source/contents/commandline/import.rst:19
+msgid "Description"
+msgstr ""
+
+#: ../../source/contents/commandline/import.rst:19
+msgid "Required"
+msgstr ""
+
+#: ../../source/contents/commandline/import.rst:19
+msgid "Note"
+msgstr ""
+
+#: ../../source/contents/commandline/import.rst:21
+msgid "-f"
+msgstr ""
+
+#: ../../source/contents/commandline/import.rst:21
+msgid "--database"
+msgstr ""
+
+#: ../../source/contents/commandline/import.rst:21
+msgid "保存するデータベースファイルパス"
+msgstr "Database file path to save"
+
+#: ../../source/contents/commandline/import.rst:21
+#: ../../source/contents/commandline/import.rst:23
+msgid "yes"
+msgstr ""
+
+#: ../../source/contents/commandline/import.rst:21
+msgid "ファイルが存在しない場合は新規作成する"
+msgstr "If the file does not exist, create a new one."
+
+#: ../../source/contents/commandline/import.rst:23
+msgid "-i"
+msgstr ""
+
+#: ../../source/contents/commandline/import.rst:23
+msgid "--input"
+msgstr ""
+
+#: ../../source/contents/commandline/import.rst:23
+msgid "キースイッチ情報を記述したファイル名"
+msgstr "File name describing the keyswitch information"
+
+#: ../../source/contents/commandline/import.rst:27
+msgid "**例**"
+msgstr "**Example**"
+

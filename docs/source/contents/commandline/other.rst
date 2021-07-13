@@ -22,15 +22,22 @@ GUIDを作成する
 guid 例
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+**GUIDを1つ生成する**
+
 .. code-block:: bash
 
-    # GUIDを1つ生成する
     ksm guid
 
-    # GUIDを10個生成する
+**GUIDを10個生成する**
+
+.. code-block:: bash
+
     ksm guid 10
 
-    # GUIDを10個生成し hoge.txt に保存する
+**GUIDを10個生成し hoge.txt に保存する**
+
+.. code-block:: bash
+
     ksm guid -o hoge.txt 10
 
 

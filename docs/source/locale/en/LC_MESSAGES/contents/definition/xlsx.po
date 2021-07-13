@@ -1,0 +1,215 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, R-Koubou
+# This file is distributed under the same license as the KeySwitchManager
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: KeySwitchManager 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-13 23:47+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/contents/definition/xlsx.rst:2
+msgid "スプレッドシート(xlsx)"
+msgstr "Spreadsheet (xlsx)"
+
+#: ../../source/contents/definition/xlsx.rst:4
+msgid "Excelなどスプレッドシート(xlsx)に対応したアプリケーションで編集が可能。"
+msgstr "Can be edited in Excel and other applications that support spreadsheets (xlsx)."
+
+#: ../../source/contents/definition/xlsx.rst:10
+msgid "Contents"
+msgstr ""
+
+#: ../../source/contents/definition/xlsx.rst:15
+msgid "基本情報"
+msgstr "Basic Information"
+
+#: ../../source/contents/definition/xlsx.rst:22
+msgid "GUID"
+msgstr ""
+
+#: ../../source/contents/definition/xlsx.rst:24
+msgid "データベースがキースイッチを識別する一意のID。"
+msgstr "A unique ID by which the database identifies the keyswitch."
+
+#: ../../source/contents/definition/xlsx.rst:26
+#: ../../source/contents/definition/xlsx.rst:38
+#: ../../source/contents/definition/xlsx.rst:50
+#: ../../source/contents/definition/xlsx.rst:62
+#: ../../source/contents/definition/xlsx.rst:73
+#: ../../source/contents/definition/xlsx.rst:85
+msgid "**例**"
+msgstr "**Example**"
+
+#: ../../source/contents/definition/xlsx.rst:34
+msgid "Developer Name"
+msgstr ""
+
+#: ../../source/contents/definition/xlsx.rst:36
+msgid "音源開発者情報"
+msgstr "Developer's Information"
+
+#: ../../source/contents/definition/xlsx.rst:46
+msgid "Product Name"
+msgstr ""
+
+#: ../../source/contents/definition/xlsx.rst:48
+msgid "製品名情報"
+msgstr "Product Name Information"
+
+#: ../../source/contents/definition/xlsx.rst:58
+msgid "Instrument Name"
+msgstr ""
+
+#: ../../source/contents/definition/xlsx.rst:60
+msgid "音色名情報"
+msgstr "Instrumet name information"
+
+#: ../../source/contents/definition/xlsx.rst:69
+msgid "Author"
+msgstr ""
+
+#: ../../source/contents/definition/xlsx.rst:71
+msgid "キースイッチ作成者情報"
+msgstr "Keyswitch author information"
+
+#: ../../source/contents/definition/xlsx.rst:81
+msgid "Description"
+msgstr ""
+
+#: ../../source/contents/definition/xlsx.rst:83
+msgid "キースイッチ説明"
+msgstr "Keyswitch Description"
+
+#: ../../source/contents/definition/xlsx.rst:93
+msgid "アーティキュレーションの管理"
+msgstr "Articulation management"
+
+#: ../../source/contents/definition/xlsx.rst:98
+msgid "１行につき１つのアーティキュレーションを指定する。 MIDIメッセージを意味するそれぞれの列に対し、必要な値を記入する。"
+msgstr "Specify one articulation per line. For each column that represents a MIDI message, fill in the required values."
+
+#: ../../source/contents/definition/xlsx.rst:102
+msgid "Articulation Name"
+msgstr ""
+
+#: ../../source/contents/definition/xlsx.rst:104
+msgid "アーティキュレーション名"
+msgstr "articulation name"
+
+#: ../../source/contents/definition/xlsx.rst:107
+msgid "NoteOn"
+msgstr ""
+
+#: ../../source/contents/definition/xlsx.rst:109
+msgid "MIDIノートオン"
+msgstr "MIDI Note On"
+
+#: ../../source/contents/definition/xlsx.rst
+msgid "Ch"
+msgstr ""
+
+#: ../../source/contents/definition/xlsx.rst:111
+#: ../../source/contents/definition/xlsx.rst:119
+#: ../../source/contents/definition/xlsx.rst:126
+msgid "MIDIチャンネル (1〜16)"
+msgstr "MIDI Channel"
+
+#: ../../source/contents/definition/xlsx.rst
+msgid "Note"
+msgstr ""
+
+#: ../../source/contents/definition/xlsx.rst:112
+msgid "MIDIノートナンバー (0〜127 または C-2〜G8)"
+msgstr "MIDI note numbers or scale names can be used."
+
+#: ../../source/contents/definition/xlsx.rst
+msgid "Velocity"
+msgstr ""
+
+#: ../../source/contents/definition/xlsx.rst:113
+msgid "ベロシティ (0〜127)"
+msgstr "velocity"
+
+#: ../../source/contents/definition/xlsx.rst:117
+msgid "CC (Control Change)"
+msgstr ""
+
+#: ../../source/contents/definition/xlsx.rst
+msgid "No"
+msgstr ""
+
+#: ../../source/contents/definition/xlsx.rst:120
+msgid "CCナンバー (0〜127)"
+msgstr "Control change number"
+
+#: ../../source/contents/definition/xlsx.rst
+msgid "Data"
+msgstr ""
+
+#: ../../source/contents/definition/xlsx.rst:121
+msgid "CCデータ (0〜127)"
+msgstr "Control change data"
+
+#: ../../source/contents/definition/xlsx.rst:124
+msgid "PC (Program Change)"
+msgstr "Program Change"
+
+#: ../../source/contents/definition/xlsx.rst:127
+msgid "PCデータ (0〜127)"
+msgstr "PC Data"
+
+#: ../../source/contents/definition/xlsx.rst:131
+msgid "複数のMIDIメッセージを指定する場合"
+msgstr "When specifying multiple MIDI messages"
+
+#: ../../source/contents/definition/xlsx.rst:133
+msgid "該当の列を複製し、数字部分を＋１する。"
+msgstr "Duplicate the corresponding column and add +1 to the numeric part."
+
+#: ../../source/contents/definition/xlsx.rst:140
+msgid "例１：MIDIノートオン"
+msgstr "Example 1: MIDI Note On"
+
+#: ../../source/contents/definition/xlsx.rst:148
+#: ../../source/contents/definition/xlsx.rst:168
+#: ../../source/contents/definition/xlsx.rst:187
+msgid "を複製し、"
+msgstr "Duplicate these columns and"
+
+#: ../../source/contents/definition/xlsx.rst:156
+#: ../../source/contents/definition/xlsx.rst:176
+#: ../../source/contents/definition/xlsx.rst:194
+msgid "とする（数字部分を＋１する）"
+msgstr "Increase the number part by +1"
+
+#: ../../source/contents/definition/xlsx.rst:160
+msgid "例２：MIDIコントールチェンジ"
+msgstr "Example 2: MIDI control change"
+
+#: ../../source/contents/definition/xlsx.rst:180
+msgid "例３：MIDIプログラムチェンジ"
+msgstr "Example 3: MIDI Program Change"
+
+#: ../../source/contents/definition/xlsx.rst:198
+msgid "複数のシートを１ファイルで管理する場合"
+msgstr "To manage multiple sheets in one file"
+
+#: ../../source/contents/definition/xlsx.rst:200
+msgid "必要な分シートを複製して１つのファイルに保持しておくことが可能。"
+msgstr "You can duplicate as many sheets as you need and keep them in a single file."
+
+#: ../../source/contents/definition/xlsx.rst:204
+msgid "GUIDは再利用できないため、手動で生成し記入する必要がある。"
+msgstr "GUIDs cannot be reused and must be generated manually."
+

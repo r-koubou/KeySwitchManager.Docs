@@ -1,0 +1,255 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, R-Koubou
+# This file is distributed under the same license as the KeySwitchManager
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: KeySwitchManager 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-14 00:04+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/contents/commandline/basic.rst:2
+msgid "基本操作"
+msgstr "Basic operation"
+
+#: ../../source/contents/commandline/basic.rst:5
+msgid "共通"
+msgstr "Common"
+
+#: ../../source/contents/commandline/basic.rst:12
+msgid "macOS, Linux ユーザー"
+msgstr "For macOS, Linux users"
+
+#: ../../source/contents/commandline/basic.rst:14
+msgid "ksm.sh に実行権限がない場合は chmod コマンドで設定する必要がある"
+msgstr ""
+"If you don't have permission to execute ksm.sh, you need to set it up "
+"with ``chmod`` command"
+
+#: ../../source/contents/commandline/basic.rst:16
+#: ../../source/contents/commandline/basic.rst:72
+#: ../../source/contents/commandline/basic.rst:84
+#: ../../source/contents/commandline/basic.rst:116
+msgid "**例**"
+msgstr "**Example**"
+
+#: ../../source/contents/commandline/basic.rst:24
+msgid "new コマンド"
+msgstr "new"
+
+#: ../../source/contents/commandline/basic.rst:26
+msgid "キースイッチ定義ファイル新規作成(:doc:`Yaml </contents/definition/yaml>`)"
+msgstr ""
+"Create a new keyswitch definition file(:doc:`Yaml "
+"</contents/definition/yaml>`)\""
+
+#: ../../source/contents/commandline/basic.rst:33
+msgid "Parameter"
+msgstr ""
+
+#: ../../source/contents/commandline/basic.rst:33
+#: ../../source/contents/commandline/basic.rst:59
+#: ../../source/contents/commandline/basic.rst:105
+msgid "Description"
+msgstr ""
+
+#: ../../source/contents/commandline/basic.rst:33
+#: ../../source/contents/commandline/basic.rst:59
+#: ../../source/contents/commandline/basic.rst:105
+msgid "Required"
+msgstr ""
+
+#: ../../source/contents/commandline/basic.rst:33
+msgid "Default"
+msgstr ""
+
+#: ../../source/contents/commandline/basic.rst:35
+msgid "output-path"
+msgstr ""
+
+#: ../../source/contents/commandline/basic.rst:35
+msgid "出力ファイルパス"
+msgstr "Output file path"
+
+#: ../../source/contents/commandline/basic.rst:35
+msgid "no"
+msgstr ""
+
+#: ../../source/contents/commandline/basic.rst:35
+msgid "(ProductName).yaml"
+msgstr ""
+
+#: ../../source/contents/commandline/basic.rst:40
+msgid "ファイル名の拡張子に応じて出力する。"
+msgstr "Output according to the extension of the file name."
+
+#: ../../source/contents/commandline/basic.rst
+msgid "yaml"
+msgstr ""
+
+#: ../../source/contents/commandline/basic.rst:42
+msgid "Yaml"
+msgstr ""
+
+#: ../../source/contents/commandline/basic.rst
+msgid "xlsx"
+msgstr ""
+
+#: ../../source/contents/commandline/basic.rst:43
+msgid "スプレッドシート(xlsx)"
+msgstr "Spreadsheet(xlsx)"
+
+#: ../../source/contents/commandline/basic.rst:47
+msgid "find コマンド"
+msgstr "find"
+
+#: ../../source/contents/commandline/basic.rst:50
+msgid ""
+"指定されたパラメータからデータベース内のキースイッチ情報データを検索する（部分一致） 検索結果の出力フォーマットは :doc:`Yaml "
+"</contents/definition/yaml>`"
+msgstr ""
+"Searches for the keyswitch information data in the database from the "
+"specified parameters (partial match) The output format of the search "
+"results is :doc:`Yaml </contents/definition/yaml>`"
+
+#: ../../source/contents/commandline/basic.rst:59
+#: ../../source/contents/commandline/basic.rst:105
+msgid "Option (short)"
+msgstr ""
+
+#: ../../source/contents/commandline/basic.rst:59
+#: ../../source/contents/commandline/basic.rst:105
+msgid "Option (long)"
+msgstr ""
+
+#: ../../source/contents/commandline/basic.rst:59
+msgid "Note"
+msgstr ""
+
+#: ../../source/contents/commandline/basic.rst:61
+#: ../../source/contents/commandline/basic.rst:107
+msgid "-d"
+msgstr ""
+
+#: ../../source/contents/commandline/basic.rst:61
+#: ../../source/contents/commandline/basic.rst:107
+msgid "--developer"
+msgstr ""
+
+#: ../../source/contents/commandline/basic.rst:61
+#: ../../source/contents/commandline/basic.rst:107
+msgid "検索対象のデベロッパー名"
+msgstr "Developer name to search"
+
+#: ../../source/contents/commandline/basic.rst:63
+#: ../../source/contents/commandline/basic.rst:109
+msgid "-p"
+msgstr ""
+
+#: ../../source/contents/commandline/basic.rst:63
+#: ../../source/contents/commandline/basic.rst:109
+msgid "--product"
+msgstr ""
+
+#: ../../source/contents/commandline/basic.rst:63
+#: ../../source/contents/commandline/basic.rst:109
+msgid "検索対象の製品名"
+msgstr "Product name to search"
+
+#: ../../source/contents/commandline/basic.rst:65
+#: ../../source/contents/commandline/basic.rst:111
+msgid "-i"
+msgstr ""
+
+#: ../../source/contents/commandline/basic.rst:65
+#: ../../source/contents/commandline/basic.rst:111
+msgid "--instrument"
+msgstr ""
+
+#: ../../source/contents/commandline/basic.rst:65
+#: ../../source/contents/commandline/basic.rst:111
+msgid "検索対象の音色・パッチ名"
+msgstr "Instrument/Patch name to search"
+
+#: ../../source/contents/commandline/basic.rst:67
+#: ../../source/contents/commandline/basic.rst:113
+msgid "-f"
+msgstr ""
+
+#: ../../source/contents/commandline/basic.rst:67
+#: ../../source/contents/commandline/basic.rst:113
+msgid "--database"
+msgstr ""
+
+#: ../../source/contents/commandline/basic.rst:67
+#: ../../source/contents/commandline/basic.rst:113
+msgid "検索するデータベースファイルパス"
+msgstr "Database file"
+
+#: ../../source/contents/commandline/basic.rst:67
+#: ../../source/contents/commandline/basic.rst:69
+#: ../../source/contents/commandline/basic.rst:107
+#: ../../source/contents/commandline/basic.rst:109
+#: ../../source/contents/commandline/basic.rst:111
+#: ../../source/contents/commandline/basic.rst:113
+msgid "yes"
+msgstr ""
+
+#: ../../source/contents/commandline/basic.rst:69
+msgid "-o"
+msgstr ""
+
+#: ../../source/contents/commandline/basic.rst:69
+msgid "--output"
+msgstr ""
+
+#: ../../source/contents/commandline/basic.rst:69
+msgid "検索結果(キースイッチ情報を記述したYamlファイル名)"
+msgstr "Search result (Yaml file name describing the keyswitch information)"
+
+#: ../../source/contents/commandline/basic.rst:79
+msgid "**アスタリスク（\\*）の使用**"
+msgstr "**Use of asterisks (\\*)**"
+
+#: ../../source/contents/commandline/basic.rst:81
+msgid "検索条件を指定しなかった場合や、アスタリスクを指定した場合、全てを検索対象とする。"
+msgstr ""
+"If no search condition is specified, or an asterisk is specified, all "
+"will be searched."
+
+#: ../../source/contents/commandline/basic.rst:86
+msgid "全てのデベロッパーの、\"Guitar\"という製品名が含まれるキースイッチを検索する"
+msgstr "Search for keyswitches that contain the product name \"Guitar\" across all developers."
+
+#: ../../source/contents/commandline/basic.rst:94
+msgid "delete コマンド"
+msgstr "delete"
+
+#: ../../source/contents/commandline/basic.rst:97
+msgid "指定されたパラメータからデータベース内のキースイッチ情報データを削除する"
+msgstr ""
+"Deletes the keyswitch information data in the database from the specified"
+" parameters."
+
+#~ msgid "全てのデベロッパーの、\"Guitar\"という製品名が含まれるキースイッチを検索する .. code-block:: bash"
+#~ msgstr ""
+
+#~ msgid "ksm import-xlsx -d \"*\" -p \"Guitar\" -f KeySwitches.db -o result.yaml"
+#~ msgstr ""
+
+#~ msgid "全てのデベロッパーの、\"Guitar\"という製品名が含まれるキースイッチを検索する"
+#~ msgstr ""
+
+#~ msgid "**例** 全てのデベロッパーの、\"Guitar\"という製品名が含まれるキースイッチを検索する"
+#~ msgstr ""
+

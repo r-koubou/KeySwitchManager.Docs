@@ -81,9 +81,12 @@ find コマンド
 検索条件を指定しなかった場合や、アスタリスクを指定した場合、全てを検索対象とする。
 
 
+**例**
+
+全てのデベロッパーの、"Guitar"という製品名が含まれるキースイッチを検索する
+
 .. code-block:: bash
 
-    # 全てのデベロッパーの、"Guitar"という製品名が含まれるキースイッチを検索する
     ksm import-xlsx -d "*" -p "Guitar" -f KeySwitches.db -o result.yaml
 
 

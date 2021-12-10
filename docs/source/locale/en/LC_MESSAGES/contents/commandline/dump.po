@@ -1,0 +1,90 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, R-Koubou
+# This file is distributed under the same license as the KeySwitchManager
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: KeySwitchManager 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-11 05:06+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/contents/commandline/dump.rst:2
+msgid "ダンプ"
+msgstr "Dump"
+
+#: ../../source/contents/commandline/dump.rst:4
+msgid "データベースに格納している全ての情報を単一のキースイッチ定義ファイルに出力する。"
+msgstr "Outputs all the information stored in the database to a single keyswitch definition file."
+"Outputs all the information stored in the database to a single keyswitch "
+"definition file."
+
+#: ../../source/contents/commandline/dump.rst:8
+msgid "dump コマンド"
+msgstr "dump command"
+
+#: ../../source/contents/commandline/dump.rst:11
+msgid "データベースに格納している全ての情報をキースイッチ定義ファイル（YAML）として出力する。"
+msgstr "Output all the information stored in the database as a keyswitch definition file (YAML)."
+
+#: ../../source/contents/commandline/dump.rst:18
+msgid "Option (short)"
+msgstr ""
+
+#: ../../source/contents/commandline/dump.rst:18
+msgid "Option (long)"
+msgstr ""
+
+#: ../../source/contents/commandline/dump.rst:18
+msgid "Description"
+msgstr ""
+
+#: ../../source/contents/commandline/dump.rst:18
+msgid "Required"
+msgstr ""
+
+#: ../../source/contents/commandline/dump.rst:18
+msgid "Note"
+msgstr ""
+
+#: ../../source/contents/commandline/dump.rst:20
+msgid "-f"
+msgstr ""
+
+#: ../../source/contents/commandline/dump.rst:20
+msgid "--database"
+msgstr ""
+
+#: ../../source/contents/commandline/dump.rst:20
+msgid "参照するデータベースファイルパス"
+msgstr "Database file path"
+
+#: ../../source/contents/commandline/dump.rst:20
+#: ../../source/contents/commandline/dump.rst:22
+msgid "yes"
+msgstr ""
+
+#: ../../source/contents/commandline/dump.rst:22
+msgid "-o"
+msgstr ""
+
+#: ../../source/contents/commandline/dump.rst:22
+msgid "--output"
+msgstr ""
+
+#: ../../source/contents/commandline/dump.rst:22
+msgid "出力先ファイル名"
+msgstr "Destination file name"
+
+#: ../../source/contents/commandline/dump.rst:26
+msgid "**例**"
+msgstr ""

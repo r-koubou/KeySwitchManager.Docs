@@ -18,7 +18,7 @@
 # -- Project information -----------------------------------------------------
 
 project = 'KeySwitchManager'
-version = '0.2.0'
+version = '0.3.0'
 copyright = '2021, R-Koubou'
 author = 'R-Koubou'
 

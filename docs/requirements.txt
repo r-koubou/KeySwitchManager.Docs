@@ -6,5 +6,5 @@
 #
 
 -i https://pypi.org/simple
-sphinx==7.2.6
-myst-parser==2.0.0
+sphinx
+myst-parser

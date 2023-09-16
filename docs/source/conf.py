@@ -19,7 +19,7 @@
 
 project = 'KeySwitchManager'
 version = '0.3.0'
-copyright = '2021, R-Koubou'
+copyright = '2023, R-Koubou'
 author = 'R-Koubou'
 
 

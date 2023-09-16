@@ -6,3 +6,4 @@
 #
 
 -i https://pypi.org/simple
+myst-parser

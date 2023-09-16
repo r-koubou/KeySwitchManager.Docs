@@ -7,5 +7,3 @@
 
 -i https://pypi.org/simple
 myst-parser==0.14.0
-sphinx==3.5.4
-myst-parser==0.14.0
